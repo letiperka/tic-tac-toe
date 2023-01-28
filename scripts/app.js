@@ -3,6 +3,8 @@ const editPlayer2Btn = document.getElementById("edit-player-2-btn");
 const cancelBtn = document.getElementById("cancel");
 // const confirmBtn = document.getElementById("confirm");
 
+const errorsOutput = document.getElementById("config-errors");
+
 const form = document.querySelector("form");
 
 const playerConfigOverlay = document.getElementById("config-overlay");
