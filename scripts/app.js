@@ -11,12 +11,12 @@ let currentRound = 1;
 const players = [
     {
         name: "",
-        symbol: "X",
+        symbol: "X"
     },
     {
         name: "",
-        symbol: "O",
-    },
+        symbol: "O"
+    }
 ];
 
 const activePlayerName = document.getElementById("active-player-name");
@@ -30,7 +30,7 @@ const startGameBtn = document.getElementById("start-game-btn");
 const errorsOutput = document.getElementById("config-errors");
 const gameArea = document.getElementById("active-game");
 // const gameTiles = document.querySelectorAll("#game-board li");
-const gameBoard = document.getElementById("game-board")
+const gameBoard = document.getElementById("game-board");
 const gameOver = document.getElementById("game-over");
 
 const form = document.querySelector("form");
