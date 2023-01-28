@@ -31,6 +31,7 @@ const errorsOutput = document.getElementById("config-errors");
 const gameArea = document.getElementById("active-game");
 // const gameTiles = document.querySelectorAll("#game-board li");
 const gameBoard = document.getElementById("game-board")
+const gameOver = document.getElementById("game-over");
 
 const form = document.querySelector("form");
 
