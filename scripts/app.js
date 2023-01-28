@@ -1,3 +1,16 @@
+let editedPlayer = 0;
+
+const players = [
+    {
+        name: "",
+        symbol: "X"
+    },
+    {
+        name: "",
+        symbol: "O"
+    },
+];
+
 const editPlayer1Btn = document.getElementById("edit-player-1-btn");
 const editPlayer2Btn = document.getElementById("edit-player-2-btn");
 const cancelBtn = document.getElementById("cancel");
