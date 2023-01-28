@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/styles.css">
 <link rel="stylesheet" href="styles/overlays.css">
-
+<link rel="stylesheet" href="styles/configuration.css">
 
 
 <title>Tic Tac Toe</title>
@@ -19,6 +19,8 @@
 
 
 <body>
+<div id="backdrop"></div>
+
 <header id="main-header">
 <h1>Play Tic, Tac, Toe</h1>
 <p>Made with HTML, CSS, JavaScript and - of course - lots of love!</p>
@@ -27,7 +29,7 @@
 
 
 <main>
-<aside class="modal">
+<aside class="modal" id="config-overlay">
 <h2>Choose your name</h2>
 <form>
 
@@ -36,7 +38,7 @@
 <input type="text" name="username" id="playername">
 </div>
 
-<div>
+<div class="form-control">
 <button type="button" class="btn btn-alt">Cancel</button>
 <button type="submit" class="btn">Confirm</button>
 </div>
